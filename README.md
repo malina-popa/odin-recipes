@@ -1,1 +1,3 @@
 # odin-recipes
+
+This is a basic recipe website. This is my first *official* project that aims to show my newly acquired HTML skills, and my progess in TOP. Hopefully, by the time I I finish this little project, I will have demonstrated my ability to correctly structure an HTML file, use HTML elements and their attributes, such as headings, paragraphs, images, links, lists, etc., make use of absolute and relative links, use the right img file formats, use em, strong, b, and i correctly, and so on.
