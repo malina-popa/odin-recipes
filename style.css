@@ -1,26 +1,52 @@
-body {
+.main-body {
     color:black;
     font-family: Century, Georgia, Garamond, "Times New Roman", serif;
-    font-size: 18px;
-    background-color: #ffface;
+    font-size: 16px;
+    background-color: #f0d6d6;
+    text-align: left;
+}
+
+.header {
+    margin: auto;
+    width: 800px;
+    height: auto;
+    padding: auto;
+    border: 2px solid #d6536d;
+    background-color: #ffffff;
     text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.main-container {
+    margin: auto;
+    width: 700px;
+    height: auto;
+    padding: 50px;
+    border: 2px solid #da3e6c;
+    background-color: #ffffff;
 }
 
 .tips {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .recs {
-    color: #a30000;
+    color: #9c2c51;
     font-weight: 900;
 }
 
 ul {
-    list-style-type: "🍝 ";
+    list-style-type: none /*"🍝"*/;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
     font-family: "Brush Script MT", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
 }
 
 h2 {
@@ -29,4 +55,15 @@ h2 {
 
 .fancy-desc {
     font-style: italic;
+}
+
+img {
+    width: 330px;
+    height: auto;
+}
+
+.recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
