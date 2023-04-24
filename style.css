@@ -2,5 +2,31 @@ body {
     color:black;
     font-family: Century, Georgia, Garamond, "Times New Roman", serif;
     font-size: 18px;
-    background-color: #f6ffde;
+    background-color: #ffface;
+    text-align: center;
+}
+
+.tips {
+    font-size: 16px;
+}
+
+.recs {
+    color: #a30000;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: "🍝 ";
+}
+
+h1 {
+    font-family: "Brush Script MT", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.fancy-desc {
+    font-style: italic;
 }
