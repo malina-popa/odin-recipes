@@ -1,7 +1,7 @@
 .main-body {
     color:black;
-    font-family: Century, Georgia, Garamond, "Times New Roman", serif;
-    font-size: 16px;
+    font-family:  Helvetica, sans-serif;
+    font-size: 15px;
     background-color: #f0d6d6;
     text-align: left;
 }
@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 50px;
     font-weight: 900;
-    font-family: fantasy;
+    font-family: "Dancing Script";
     font-style: italic;
 }
 
@@ -35,7 +35,7 @@
 
 .recs {
     color: #9c2c51;
-    font-weight: 900;
+    font-size: 14px;
 }
 
 ul {
@@ -45,7 +45,7 @@ ul {
 }
 
 h1 {
-    font-family: "Brush Script MT", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: "Work Sans", sans-serif;
     text-align: center;
 }
 
