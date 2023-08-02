@@ -58,57 +58,36 @@ main {
     padding: 16px;
 }
 
-.recipe-button,
-.top-button,
-.return-button {
-    background-color: #9c2c51;
-    border: none;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 16px 32px;
-    width: 300px;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.recipe-button:hover,
-.top-button:hover,
-.return-button:hover {
-    background-color:#1f1f1f;
-    transition: 0.7s;
-}
-
-.recipe-button:focus,
-.top-button:focus,
-.return-button:focus  {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #339c2c;
-    transition: 0.7s;
-}
-
-.recipe-button a,
-.top-button a,
-.return-button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.recipe-button a:focus,
-.top-button a:focus,
-.return-button a:focus  {
-    outline-color: transparent;
-    outline-style: solid;
-    box-shadow: 0 0 0 4px #339c2c;
-    transition: 0.7s;
-}
-
 .center,
-.center-buttons {
+.center-top-return {
     text-align: center;
 }
+
+.recipe-links a,
+.top-return-links a {
+    background-color: rgb(179,57,81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+    width: 300px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+  
+  .recipe-links a:hover,
+  .top-return-links a:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+    transition: 0.7s;
+  }
+
+  .recipe-links a:focus,
+  .top-return-links a:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    border: 2px solid #339c2c;
+  }
 
 .ingredients {
     display: inline-block;
@@ -166,3 +145,4 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+      
